@@ -1,7 +1,5 @@
 # Practical Privacy & Security
 
-A static slide deck reformatted from the original Google Slides presentation, deployable to GitHub Pages. Click through it like a presentation in any browser.
-
 **Live site:** https://kielni.github.io/practical-privacy/
 
 ## Keyboard shortcuts

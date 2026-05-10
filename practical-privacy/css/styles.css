@@ -88,6 +88,20 @@
   color: var(--color-text);
 }
 
+.reveal a {
+  color: var(--color-text-dim);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: color-mix(in srgb, var(--color-text-dim) 40%, transparent);
+  transition: color 0.15s, text-decoration-color 0.15s;
+}
+
+.reveal a:hover,
+.reveal a:focus {
+  color: var(--color-accent);
+  text-decoration-color: var(--color-accent);
+}
+
 .reveal .slides section {
   text-align: left;
   top: 0 !important;
@@ -211,7 +225,7 @@
 /* Decorative corner icon (top-right, large, semi-transparent) */
 .slide-deco {
   color: var(--color-accent);
-  opacity: 0.3;
+  opacity: 0.7;
   font-size: 5.5rem;
   line-height: 1;
   flex-shrink: 0;
@@ -530,6 +544,7 @@
   flex: 1;
 }
 
+.tier-row--best  { border-left: 4px solid var(--color-accent); background: var(--color-surface-2); }
 .tier-row--great { border-left: 4px solid var(--color-accent); }
 .tier-row--ok    { border-left: 4px solid var(--color-warn); }
 .tier-row--weak  { border-left: 4px solid var(--color-danger); }
@@ -542,6 +557,7 @@
   flex-shrink: 0;
 }
 
+.tier-label--best  { color: var(--color-accent); }
 .tier-label--great { color: var(--color-accent); }
 .tier-label--ok    { color: var(--color-warn); }
 .tier-label--weak  { color: var(--color-danger); }

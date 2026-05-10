@@ -78,38 +78,80 @@
             </div>
           </div>
           <div class="layout-card-grid">
-            <div class="card">
+            <div class="card card--warn">
               <div class="card__title">Financial damage</div>
               <div class="card__body">Thieves open credit cards, take out loans, or drain bank accounts in your name. Victims spend an average of 200+ hours resolving fraudulent accounts and disputing charges.</div>
-            </div>
-            <div class="card card--warn">
-              <div class="card__title">Credit score impact</div>
-              <div class="card__body">Unpaid fraudulent debts tank your credit score, which can affect your ability to rent an apartment, get a car loan, or even pass an employer background check.</div>
-            </div>
-            <div class="card">
-              <div class="card__title">Tax fraud</div>
-              <div class="card__body">Someone files a tax return in your name to claim your refund before you do. You find out when the IRS rejects your legitimate return as a duplicate.</div>
             </div>
             <div class="card card--warn">
               <div class="card__title">Medical identity theft</div>
               <div class="card__body">A thief uses your insurance to receive medical care, leaving false records in your medical history that can affect future diagnoses and coverage.</div>
             </div>
-            <div class="card">
-              <div class="card__title">It takes years to recover</div>
-              <div class="card__body">Disputing fraudulent accounts, freezing credit, and restoring your identity is a slow bureaucratic process &mdash; not a one-time fix. Prevention is far cheaper than recovery.</div>
+            <div class="card card--warn">
+              <div class="card__title">Credit score impact</div>
+              <div class="card__body">Unpaid fraudulent debts tank your credit score, which can affect your ability to rent an apartment, get a car loan, or even pass an employer background check.</div>
+            </div>
+            <div class="card card--warn">
+              <div class="card__title">Tax fraud</div>
+              <div class="card__body">Someone files a tax return in your name to claim your refund before you do. You find out when the IRS rejects your legitimate return as a duplicate.</div>
             </div>
             <div class="card card--warn">
               <div class="card__title">How it usually starts</div>
               <div class="card__body">Data breaches, phishing emails, reused passwords, and oversharing personal details online are the most common entry points &mdash; all largely preventable.</div>
+            </div>
+            <div class="card card--warn">
+              <div class="card__title">It takes years to recover</div>
+              <div class="card__body">Disputing fraudulent accounts and restoring your identity is a slow bureaucratic process &mdash; not a one-time fix. Prevention is far cheaper than recovery.</div>
             </div>
           </div>
         </div>
       </section>
 
       <!-- =====================================================
-           Slide 4: Passwords Done Right
+           Slide 4: Passkeys
            ===================================================== -->
-      <section id="slide-4" aria-label="Passwords Done Right">
+      <section id="slide-4" aria-label="Passkeys: easy and secure">
+        <div class="slide-content">
+          <div class="slide-header">
+            <div class="slide-header-text">
+              <h1 class="slide-title">Passkeys: easy &amp; secure</h1>
+              <p class="slide-intro" style="margin-top:0.4rem;">If a passkey is an option, take it: it's easier and more secure than a password.</p>
+
+            </div>
+            <div class="slide-deco" aria-hidden="true">
+              <i class="fa-solid fa-key"></i>
+            </div>
+          </div>
+          <div class="layout-step-trio" style="flex:0 0 auto;">
+            <div class="step-card" style="padding:var(--space-4) var(--space-6);">
+              <div class="step-number" aria-label="Step 1">1</div>
+              <div class="step-title">You register</div>
+              <div class="step-desc">Your device creates a unique cryptographic key pair &mdash; one stays on your device, one goes to the site</div>
+            </div>
+            <div class="step-card" style="padding:var(--space-4) var(--space-6);">
+              <div class="step-number" aria-label="Step 2">2</div>
+              <div class="step-title">You log in</div>
+              <div class="step-desc">Tap to approve with Face ID or Touch ID &mdash; your device does the rest</div>
+            </div>
+            <div class="step-card" style="padding:var(--space-4) var(--space-6);">
+              <div class="step-number" aria-label="Step 3">3</div>
+              <div class="step-title">You&rsquo;re in</div>
+              <div class="step-desc">No password transmitted &mdash; nothing to steal, nothing to phish</div>
+            </div>
+          </div>
+          <div class="card" style="flex-shrink:0;">
+            <ul class="card__list">
+              <li><strong>Easy:</strong> approve with Face ID or Touch ID &mdash; no password to type or remember</li>
+              <li><strong>Synced automatically</strong> via iCloud Keychain across all your Apple devices</li>
+            </ul>
+          </div>
+          <p class="slide-footer accent">Works today on: Google, Apple, GitHub, Microsoft, PayPal, and many more</p>
+        </div>
+      </section>
+
+      <!-- =====================================================
+           Slide 5: Passwords Done Right
+           ===================================================== -->
+      <section id="slide-5" aria-label="Passwords Done Right">
         <div class="slide-content">
           <div class="slide-header">
             <h1 class="slide-title">Passwords done right</h1>
@@ -146,49 +188,14 @@
       </section>
 
       <!-- =====================================================
-           Slide 5: Passkeys
-           ===================================================== -->
-      <section id="slide-5" aria-label="Passkeys: The Password Killer">
-        <div class="slide-content">
-          <div class="slide-header">
-            <div class="slide-header-text">
-              <h1 class="slide-title">Passkeys: the password killer</h1>
-            </div>
-            <div class="slide-deco" aria-hidden="true">
-              <i class="fa-solid fa-key"></i>
-            </div>
-          </div>
-          <div class="layout-step-trio">
-            <div class="step-card">
-              <div class="step-number" aria-label="Step 1">1</div>
-              <div class="step-title">You register</div>
-              <div class="step-desc">Your device creates a unique cryptographic key pair &mdash; one stays on your device, one goes to the site</div>
-            </div>
-            <div class="step-card">
-              <div class="step-number" aria-label="Step 2">2</div>
-              <div class="step-title">You log in</div>
-              <div class="step-desc">Site sends a challenge; your device signs it with your private key using Face ID / fingerprint / PIN</div>
-            </div>
-            <div class="step-card">
-              <div class="step-number" aria-label="Step 3">3</div>
-              <div class="step-title">You&rsquo;re in</div>
-              <div class="step-desc">No password transmitted &mdash; nothing to steal, nothing to phish</div>
-            </div>
-          </div>
-          <p class="slide-footer accent">Works today on: Google, Apple, GitHub, Microsoft, PayPal, and many more</p>
-          <p class="slide-footer" style="margin-top:0.25rem;padding-top:0;">Phishing-resistant &middot; No passwords to leak &middot; Backed by Apple, Google &amp; Microsoft</p>
-        </div>
-      </section>
-
-      <!-- =====================================================
            Slide 6: Two-Factor Authentication
            ===================================================== -->
       <section id="slide-6" aria-label="Two-Factor Authentication">
         <div class="slide-content">
           <div class="slide-header">
             <div class="slide-header-text">
-              <h1 class="slide-title">Two-factor authentication</h1>
-              <p class="slide-subtitle">(2FA) &mdash; Even if your password is stolen, 2FA keeps attackers out.</p>
+              <h1 class="slide-title">Two-factor authentication (2FA)</h1>
+              <p class="slide-subtitle">Even if your password is stolen, 2FA keeps attackers out.</p>
             </div>
             <div class="slide-deco" aria-hidden="true">
               <i class="fa-solid fa-shield-halved"></i>
@@ -199,11 +206,18 @@
               <span class="tier-intro__heading">Yes, it&rsquo;s annoying but&hellip;</span>
               <span class="tier-intro__body"><strong>Required</strong> for high-value accounts (financial, medical, identity). Use it if available for other accounts.</span>
             </div>
+            <div class="tier-row tier-row--best" role="listitem">
+              <span class="tier-label tier-label--best">Easiest</span>
+              <div class="tier-content">
+                <span class="tier-content__title">Passkey</span>
+                <span class="tier-content__desc">Replaces both your password and your 2FA code. Approve with Face ID or Touch ID &mdash; nothing to type, nothing to intercept.</span>
+              </div>
+            </div>
             <div class="tier-row tier-row--great" role="listitem">
               <span class="tier-label tier-label--great">Great</span>
               <div class="tier-content">
                 <span class="tier-content__title">Auth app</span>
-                <span class="tier-content__desc">Authy, Google Authenticator, or built-in app codes. Fast, free, phishing-resistant.</span>
+                <span class="tier-content__desc">Authy, Google Authenticator, or built-in app codes. Phishing-resistant but a bit of a hassle.</span>
               </div>
             </div>
             <div class="tier-row tier-row--ok" role="listitem">
@@ -246,7 +260,10 @@
             </div>
             <div class="card">
               <div class="card__title">Phone number</div>
-              <div class="card__body">Only give your real number if you want calls/texts. Use a fake number or Google Voice for one-off verifications.</div>
+              <div class="card__body">
+                Only give your real number if you want calls or texts. 
+                Use a fake number (408 555-1212) for non-essential accounts.
+                Get a disposable number from SMS Pool or Google Voicefor one-off verifications.</div>
             </div>
             <div class="card card--warn">
               <div class="card__title">Photo metadata</div>
@@ -265,9 +282,60 @@
       </section>
 
       <!-- =====================================================
-           Slide 8: Account setup: limit sharing
+           Slide 8: When to share real info
            ===================================================== -->
-      <section id="slide-8" aria-label="Account setup: limit sharing">
+      <section id="slide-8" aria-label="When to share real phone and birthdate">
+        <div class="slide-content">
+          <div class="slide-header">
+            <div class="slide-header-text">
+              <h1 class="slide-title">When to share real info</h1>
+              <p class="slide-subtitle" style="font-size:var(--text-body);margin-top:0.3rem;">Your real phone number and birthdate are only needed in a few specific situations.</p>
+            </div>
+            <div class="slide-deco" aria-hidden="true">
+              <i class="fa-solid fa-eye"></i>
+            </div>
+          </div>
+          <div class="layout-two-column" style="flex:0 0 auto;">
+            <div class="two-col-panel">
+              <div class="two-col-panel__bar two-col-panel__bar--accent">Yes &mdash; give your real info</div>
+              <div class="two-col-panel__body">
+                <ul>
+                  <li>Government agencies (DMV, SSA, passport)</li>
+                  <li>IRS and tax filings</li>
+                  <li>Banks, credit unions, and financial institutions</li>
+                  <li>Healthcare providers and insurance</li>
+                  <li>Schools and universities</li>
+                  <li>Address: only when shipping something to you</li>
+                </ul>
+              </div>
+            </div>
+            <div class="two-col-panel">
+              <div class="two-col-panel__bar two-col-panel__bar--warn">No &mdash; use a fake or skip it</div>
+              <div class="two-col-panel__body">
+                <ul>
+                  <li>Retail stores and loyalty programs</li>
+                  <li>Merchants and e-commerce checkouts</li>
+                  <li>Activity waivers and event sign-ups</li>
+                  <li>Any site where it&rsquo;s not legally required</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card card--danger" style="flex-shrink:0;">
+            <div class="card__title" style="color:var(--color-danger);">Beware: looks legitimate but isn&rsquo;t</div>
+            <ul class="card__list" style="columns:3;gap:var(--space-8);">
+              <li><strong>Health &amp; wellness apps</strong> (symptom checkers, weight loss) &mdash; not the same as your healthcare provider</li>
+              <li><strong>Insurance comparison sites</strong> &mdash; they collect your data to sell leads, not to insure you</li>
+              <li><strong>Credit score &amp; financial wellness apps</strong> &mdash; feel like banking but are ad platforms that monetize your financial profile</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================
+           Slide 9: Account setup: limit sharing
+           ===================================================== -->
+      <section id="slide-9" aria-label="Account setup: limit sharing">
         <div class="slide-content">
           <div class="slide-header">
             <h1 class="slide-title">Account setup: limit sharing</h1>
@@ -305,9 +373,9 @@
       </section>
 
       <!-- =====================================================
-           Slide 9: Data Brokers & Your Rights
+           Slide 10: Data Brokers & Your Rights
            ===================================================== -->
-      <section id="slide-9" aria-label="Data Brokers and Your Rights">
+      <section id="slide-10" aria-label="Data Brokers and Your Rights">
         <div class="slide-content">
           <div class="slide-header">
             <div class="slide-header-text">
@@ -335,9 +403,10 @@
                 <div class="card__title">California privacy rights</div>
                 <div class="card__body">
                   <span class="card__sub">California CCPA</span>
-                  You have the right to know what data is collected about you, delete it, opt out of its sale, and be free from discrimination for exercising these rights. Submit requests at oag.ca.gov/privacy/ccpa.
+                  You have the right to know what data is collected about you, delete it, opt out of its sale, and be free from discrimination for exercising these rights. Submit requests 
+                  at <a href="https://oag.ca.gov/privacy/ccpa" target="_blank" rel="noopener noreferrer">oag.ca.gov/privacy/ccpa</a>.
                   <span class="card__sub">California DELETE act &mdash; DROP (2026)</span>
-                  DROP (privacy.ca.gov/drop) lets you submit one request to delete your personal data from all 500+ registered data brokers at once, rather than contacting each company individually. Brokers are legally required to comply.
+                  DROP (<a href="https://privacy.ca.gov/drop" target="_blank" rel="noopener noreferrer">privacy.ca.gov/drop</a>) lets you submit one request to delete your personal data from all 500+ registered data brokers at once, rather than contacting each company individually. Brokers are legally required to comply.
                 </div>
               </div>
             </div>
@@ -347,9 +416,9 @@
       </section>
 
       <!-- =====================================================
-           Slide 10: Keep Devices & Software Updated
+           Slide 11: Keep Devices & Software Updated
            ===================================================== -->
-      <section id="slide-10" aria-label="Keep Devices and Software Updated">
+      <section id="slide-11" aria-label="Keep Devices and Software Updated">
         <div class="slide-content">
           <div class="slide-header">
             <div class="slide-header-text">
@@ -379,7 +448,7 @@
               </div>
               <div class="stat-list-item">
                 <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
-                <p>Full-disk encryption is on by default on modern phones &mdash; verify it&rsquo;s enabled</p>
+                <p>Full-disk encryption is on by default on modern phones &mdash; verify it&rsquo;s enabled. On a Mac, check FileVault: System Settings &gt; Privacy &amp; Security &gt; FileVault</p>
               </div>
               <div class="stat-list-item">
                 <i class="fa-solid fa-eye" aria-hidden="true"></i>
@@ -391,9 +460,9 @@
       </section>
 
       <!-- =====================================================
-           Slide 11: Protect your credit
+           Slide 12: Protect your credit
            ===================================================== -->
-      <section id="slide-11" aria-label="Protect your credit">
+      <section id="slide-12" aria-label="Protect your credit">
         <div class="slide-content">
           <div class="slide-header">
             <div class="slide-header-text">
@@ -421,17 +490,17 @@
                 </div>
               </div>
               <div class="section-blocks-col">
-                <div class="card card--warn" style="flex:1;">
+                <div class="card" style="flex:1;">
                   <div class="card__title">How to freeze</div>
                   <div class="card__body">Freeze your credit at all three bureaus separately. Do it now, before your data is compromised:<br>
-                    &mdash; equifax.com/personal/credit-report-services<br>
-                    &mdash; experian.com/freeze/center.html<br>
-                    &mdash; transunion.com/credit-freeze
+                    &mdash; <a href="https://www.equifax.com/personal/credit-report-services/free-credit-freeze/" target="_blank" rel="noopener">equifax.com/personal/credit-report-services</a><br>
+                    &mdash; <a href="https://www.experian.com/freeze/center.html" target="_blank" rel="noopener">experian.com/freeze/center.html</a><br>
+                    &mdash; <a href="https://www.transunion.com/credit-freeze" target="_blank" rel="noopener">transunion.com/credit-freeze</a>
                   </div>
                 </div>
-                <div class="card card--warn" style="flex:1;">
+                <div class="card" style="flex:1;">
                   <div class="card__title">Prescreened offers &amp; data sales</div>
-                  <div class="card__body">Even with a credit freeze, bureaus can legally sell your information to lenders, insurers, and debt collectors for marketing purposes. Opt out at optoutprescreen.com to stop this separately from your freeze.</div>
+                  <div class="card__body">Even with a credit freeze, bureaus can legally sell your information to lenders, insurers, and debt collectors for marketing purposes. Opt out at <a href="https://www.optoutprescreen.com" target="_blank" rel="noopener">optoutprescreen.com</a> to stop this separately from your freeze.</div>
                 </div>
               </div>
             </div>
@@ -440,9 +509,9 @@
       </section>
 
       <!-- =====================================================
-           Slide 12: New Threats
+           Slide 13: New Threats
            ===================================================== -->
-      <section id="slide-12" aria-label="New Threats">
+      <section id="slide-13" aria-label="New Threats">
         <div class="slide-content">
           <div class="slide-header">
             <h1 class="slide-title">New threats</h1>
@@ -470,7 +539,7 @@
                   <li>&ldquo;Coffee shop Wi-Fi&rdquo; can be spoofed &mdash; attackers create fake hotspots with convincing names</li>
                   <li>Avoid banking or sensitive logins on public networks</li>
                   <li>HTTPS protects most traffic, but not all apps use it</li>
-                  <li>A VPN encrypts all traffic &mdash; useful on untrusted networks (Mullvad, ProtonVPN)</li>
+                  <li>iCloud Private Relay hides your IP and encrypts Safari traffic so neither Apple nor your ISP can see your browsing &mdash; enable in Settings &gt; [your name] &gt; iCloud &gt; Private Relay</li>
                   <li>Your phone&rsquo;s cellular data is safer than public Wi-Fi</li>
                 </ul>
               </div>
@@ -483,9 +552,9 @@
       </section>
 
       <!-- =====================================================
-           Slide 13: Spotting Scams & Phishing
+           Slide 14: Spotting Scams & Phishing
            ===================================================== -->
-      <section id="slide-13" aria-label="Spotting Scams and Phishing">
+      <section id="slide-14" aria-label="Spotting Scams and Phishing">
         <div class="slide-content">
           <div class="slide-header">
             <div class="slide-header-text">
@@ -537,9 +606,9 @@
       </section>
 
       <!-- =====================================================
-           Slide 14: Social Media & Credential Sharing
+           Slide 15: Social Media & Credential Sharing
            ===================================================== -->
-      <section id="slide-14" aria-label="Social Media and Credential Sharing">
+      <section id="slide-15" aria-label="Social Media and Credential Sharing">
         <div class="slide-content">
           <div class="slide-header">
             <div class="slide-header-text">
@@ -551,7 +620,7 @@
             </div>
           </div>
           <div class="layout-card-grid cols-3">
-            <div class="card">
+            <div class="card card--warn">
               <div class="card__title">Sharing credentials with friends</div>
               <ul class="card__list">
                 <li>If they get hacked, so do you</li>
@@ -579,9 +648,9 @@
       </section>
 
       <!-- =====================================================
-           Slide 15: Quick-Win Checklist
+           Slide 16: Quick-Win Checklist
            ===================================================== -->
-      <section id="slide-15" aria-label="Quick-Win Checklist">
+      <section id="slide-16" aria-label="Quick-Win Checklist">
         <div class="slide-content" style="text-align:center;">
           <h1 class="slide-title" style="text-align:center;">Quick-win checklist</h1>
           <p class="slide-subtitle" style="text-align:center;font-size:var(--text-body);">Do these today &mdash; each takes under 5 minutes</p>
@@ -613,20 +682,20 @@
             </div>
             <div class="check-item">
               <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
-              <p>Delete your info from data brokers: privacy.ca.gov/drop</p>
+              <p>Delete your info from data brokers: <a href="https://privacy.ca.gov/drop" target="_blank" rel="noopener">privacy.ca.gov/drop</a></p>
             </div>
             <div class="check-item">
               <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
-              <p>Freeze your credit: Experian, Equifax, TransUnion</p>
+              <p>Freeze your credit: <a href="https://www.experian.com/freeze/center.html" target="_blank" rel="noopener">Experian</a>, <a href="https://www.equifax.com/personal/credit-report-services/free-credit-freeze/" target="_blank" rel="noopener">Equifax</a>, <a href="https://www.transunion.com/credit-freeze" target="_blank" rel="noopener">TransUnion</a></p>
             </div>
           </div>
         </div>
       </section>
 
       <!-- =====================================================
-           Slide 16: References & Resources
+           Slide 17: References & Resources
            ===================================================== -->
-      <section id="slide-16" aria-label="References and Resources">
+      <section id="slide-17" aria-label="References and Resources">
         <div class="slide-content">
           <div class="slide-header">
             <h1 class="slide-title">References &amp; resources</h1>
@@ -665,7 +734,6 @@
               <span class="ref-entry__name">ProtonVPN (free VPN)</span>
               <span class="ref-entry__url">protonvpn.com</span>
             </div>
-            <div class="ref-entry ref-entry--empty" aria-hidden="true"></div>
             <div class="ref-entry">
               <span class="ref-entry__name">Pew Research: public &amp; privacy (2023)</span>
               <span class="ref-entry__url">pewresearch.org</span>
